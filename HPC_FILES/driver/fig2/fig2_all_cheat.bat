@@ -1,0 +1,12 @@
+sbatch driver/fig2/fig2.sh --cmcts -nt=fc --cheat
+sbatch driver/fig2/fig2.sh --cmcts -nt=pv16 --cheat
+sbatch driver/fig2/fig2.sh --cmcts -nt=pv24 --cheat
+sbatch driver/fig2/fig2.sh --perf -nt=fc --cheat
+sbatch driver/fig2/fig2.sh --perf -nt=pv16 --cheat
+sbatch driver/fig2/fig2.sh --perf -nt=pv24 --cheat
+sbatch driver/fig2/fig2.sh --pimc -nt=fc --cheat
+sbatch driver/fig2/fig2.sh --pimc -nt=pv16 --cheat
+sbatch driver/fig2/fig2.sh --pimc -nt=pv24 --cheat
+sbatch driver/fig2/fig2.sh --cmctspimc -nt=fc --cheat
+sbatch driver/fig2/fig2.sh --cmctspimc -nt=pv16 --cheat
+sbatch driver/fig2/fig2.sh --cmctspimc -nt=pv24 --cheat

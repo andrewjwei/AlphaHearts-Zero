@@ -1,0 +1,14 @@
+run the following from this directory
+source csec/bin/activate
+
+run the following from this directory
+source Environments/csec/bin/activate
+
+use the following to create a requirements.txt
+pip freeze > requirements.txt
+
+use this to install the requirements
+pip install -r requirements.txt
+
+use this to create a virtual env in csec folder
+python3 -m venv csec

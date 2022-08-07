@@ -1,0 +1,12 @@
+sbatch driver/network/run.sh --cmcts -nt=fc --reset
+sbatch driver/network/run.sh --cmcts -nt=pv16 --reset
+sbatch driver/network/run.sh --cmcts -nt=pv24 --reset
+sbatch driver/network/run.sh --perf -nt=fc --reset
+sbatch driver/network/run.sh --perf -nt=pv16 --reset
+sbatch driver/network/run.sh --perf -nt=pv24 --reset
+sbatch driver/network/run.sh --pimc -nt=fc --reset
+sbatch driver/network/run.sh --pimc -nt=pv16 --reset
+sbatch driver/network/run.sh --pimc -nt=pv24 --reset
+sbatch driver/network/run.sh --cmctspimc -nt=fc --reset
+sbatch driver/network/run.sh --cmctspimc -nt=pv16 --reset
+sbatch driver/network/run.sh --cmctspimc -nt=pv24 --reset

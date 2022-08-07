@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSEC 491 Final Project - Andrew Wei (2022)</title>
+  </head>
+  <body>
+    <h1>CSEC 491 Final Project - Andrew Wei (2022)</h1>
+    <p>The AlphaZero technique has seen remarkable success in evaluating perfect information games. However, owing to the difficulty of evaluating information sets rather than states, little work has been done in applying this technique to imperfect information games. In this work, I apply the AlphaZero technique to Hearts, an imperfect information trick-taking game. I create an agent ("AlphaHearts Zero") capable of playing Hearts at a human level, outclassing baseline agents and approaching the performance of cheating agents. In particular, the agent is capable of being trained tabula rasa without any prior knowledge or preloaded heuristic.</p>
+    <p>AlphaHearts Zero utilizes the Perfect Information Monte Carlo (PIMC) technique to convert in-game information sets into perfect information states, and then applies a version of the Monte Carlo Tree Search (MCTS) algorithm enhanced with a Deep Q-Network (DQN). The DQN neural network is trained by self-play through deep Reinforcement Learning (RL), as per other AlphaZero implementations. Self-play RL is able to steadily increase the performance of AlphaHearts Zero over many iterations.</p>
+    <p>Owing to the fact that the AlphaHearts Zero is trained without any prior knowledge, the methods demonstrated in this paper in Hearts show the viability of both PIMC and AlphaZero in a wide range of imperfect information games. Possibilities for future exploration include a specialized inference system to more accurately convert information sets into perfect information states, a more efficient tree search algorithm,  further refinement of the neural network and an improved self-play procedure.</p>
+    <p>This senior project consists of this report, as well as attached code files.</p>
+    <p><a href="readme.txt">File Directory</a></p>
+    <p><a href="Paper/CSEC_Thesis.pdf">Paper</a></p>
+    <p>To run the demonstration, run run/generate.py or run/demo.py. Make sure that the appropriate packages are installed.</p>
+  </body>
+</html>
